@@ -3,6 +3,17 @@
 by Arpan Ghoshal
 
 ---
+### Coding challenge requirements satisfied:
+
+1. Design and implement a recurrent neural network (RNN) model for time series forecasting. You can use frameworks like TensorFlow, PyTorch, or any other libraries of your choice. **DONE**: 
+Preprocess the dataset by splitting it into training and testing sets. Use a suitable strategy to ensure the model can generalize well to unseen data. **DONE**
+Train your RNN model using the training dataset. Experiment with different architectures, hyperparameters, and optimization techniques to improve performance. **DONE**
+Evaluate the performance of your model on the testing dataset. Use appropriate evaluation metrics for time series forecasting, such as mean squared error (MSE) or mean absolute error (MAE). **DONE**
+Provide a clear documentation of your approach, including the rationale behind your model selection, data preprocessing steps, and any modifications made during training. **DONE**
+Bonus: Implement a method to handle missing data and/or distribution shifts in the time series dataset. **:::** There were no missing points in the data.
+
+
+---
 
 ### How to Use
 
@@ -114,3 +125,5 @@ These hyperparameters are critical in determining the model's capacity, behavior
 
 ### Summary
 The model architecture is dynamic, allowing for the configuration of different types of RNNs with various numbers of units, regularization, and other hyperparameters. This flexibility, combined with hyperparameter tuning, enables the model to be tailored to specific sequence prediction tasks, such as forecasting stock market prices in the given context.
+
+
