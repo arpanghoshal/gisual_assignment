@@ -126,4 +126,9 @@ These hyperparameters are critical in determining the model's capacity, behavior
 ### Summary
 The model architecture is dynamic, allowing for the configuration of different types of RNNs with various numbers of units, regularization, and other hyperparameters. This flexibility, combined with hyperparameter tuning, enables the model to be tailored to specific sequence prediction tasks, such as forecasting stock market prices in the given context.
 
+---
 
+##### Example Run Score on the Dataset Provided
+
+- Train Score: 4.56 MAE 
+- Test Score: 6.97 MAE
