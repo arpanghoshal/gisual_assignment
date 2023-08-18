@@ -11,9 +11,16 @@ by Arpan Ghoshal
 4. Evaluate the performance of your model on the testing dataset. Use appropriate evaluation metrics for time series forecasting, such as mean squared error (MSE) or mean absolute error (MAE). **DONE**
 5. Provide a clear documentation of your approach, including the rationale behind your model selection, data preprocessing steps, and any modifications made during training. **DONE**
 6. Bonus: Implement a method to handle missing data and/or distribution shifts in the time series dataset. **:::**
-- There were no missing points in the data. (If it had, then I would impute it with median or would perform regression to impute)
-- And for distribution shift, we can implement a few techniques like incremental learning, creating more robust models like XGBoost to reduce sensitivity for shifts, transforming data for reducing stationarity, and collaborative filtering where I can include other time series like volume.
-- I have to experiment with the techniques to implement what is best for handling depending on the particular type of data shift.
+
+1. **Missing Data Handling**: Since there are no missing points in the data, no imputation is required. However, if missing data were present, imputing with the median or utilizing regression techniques would be standard procedures. 
+
+2. **Handling Distribution Shifts**: 
+   - **Incremental Learning**: This can be used to adapt the model continuously as new data is available, making it resilient to changes in data distribution.
+   - **Robust Models like XGBoost**: Utilizing models that are less sensitive to shifts in distribution can be a valid approach.
+   - **Transforming Data to Reduce Stationarity**: If the data is non-stationary, transformation techniques like differencing can be applied to make the data stationary, thus facilitating modeling.
+   - **Collaborative Filtering**: Incorporating additional related time series, such as volume, can help in creating more reliable predictions by capturing related dynamics.
+
+**_I must engage in both experimentation and further research with various techniques to ascertain the most effective method for handling the specific type of data shift that may be present in the dataset._**
 
 
 ---
