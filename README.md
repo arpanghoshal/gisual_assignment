@@ -19,8 +19,7 @@ by Arpan Ghoshal
    - **Robust Models like XGBoost**: Utilizing models that are less sensitive to shifts in distribution can be a valid approach.
    - **Transforming Data to Reduce Stationarity**: If the data is non-stationary, transformation techniques like differencing can be applied to make the data stationary, thus facilitating modeling.
    - **Collaborative Filtering**: Incorporating additional related time series, such as volume, can help in creating more reliable predictions by capturing related dynamics.
-
-**_I must engage in both experimentation and further research with various techniques to ascertain the most effective method for handling the specific type of data shift that may be present in the dataset._**
+   - **_I must engage in both experimentation and further research with various techniques to ascertain the most effective method for handling the specific type of data shift that may be present in the dataset._**
 
 
 ---
