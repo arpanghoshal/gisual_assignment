@@ -10,7 +10,10 @@ by Arpan Ghoshal
 3. Train your RNN model using the training dataset. Experiment with different architectures, hyperparameters, and optimization techniques to improve performance. **DONE**
 4. Evaluate the performance of your model on the testing dataset. Use appropriate evaluation metrics for time series forecasting, such as mean squared error (MSE) or mean absolute error (MAE). **DONE**
 5. Provide a clear documentation of your approach, including the rationale behind your model selection, data preprocessing steps, and any modifications made during training. **DONE**
-6. Bonus: Implement a method to handle missing data and/or distribution shifts in the time series dataset. **:::** There were no missing points in the data.
+6. Bonus: Implement a method to handle missing data and/or distribution shifts in the time series dataset. **:::**
+- There were no missing points in the data. (If it had, then I would impute it with median or would perform regression to impute)
+- And for distribution shift, we can implement a few techniques like incremental learning, creating more robust models like XGBoost to reduce sensitivity for shifts, transforming data for reducing stationarity, and collaborative filtering where I can include other time series like volume.
+- I have to experiment with the techniques to implement what is best for handling depending on the particular type of data shift.
 
 
 ---
