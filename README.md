@@ -8,7 +8,7 @@ by Arpan Ghoshal
 
 1. Clone the repo: `git clone <repository_url> && cd <repository_directory>`
 2. Create and activate Python 3.11 virtual environment: `python3.11 -m venv myenv && source myenv/bin/activate` (macOS/Linux) or `python3.11 -m venv myenv && .\myenv\Scripts\activate` (Windows)
-3. Install required libraries: `pip install numpy matplotlib keras keras-tuner scikit-learn pandas`
+3. Install required libraries: `pip install -r requirements.txt`
 4. Run the code: `python main.py`
 
 ---
