@@ -12,9 +12,9 @@ by Arpan Ghoshal
 5. Provide a clear documentation of your approach, including the rationale behind your model selection, data preprocessing steps, and any modifications made during training. **DONE**
 6. Bonus: Implement a method to handle missing data and/or distribution shifts in the time series dataset. **:::**
 
-1. **Missing Data Handling**: Since there are no missing points in the data, no imputation is required. However, if missing data were present, imputing with the median or utilizing regression techniques would be standard procedures. 
+- **Missing Data Handling**: Since there are no missing points in the data, no imputation is required. However, if missing data were present, imputing with the median or utilizing regression techniques would be standard procedures. 
 
-2. **Handling Distribution Shifts**: 
+- **Handling Distribution Shifts**: 
    - **Incremental Learning**: This can be used to adapt the model continuously as new data is available, making it resilient to changes in data distribution.
    - **Robust Models like XGBoost**: Utilizing models that are less sensitive to shifts in distribution can be a valid approach.
    - **Transforming Data to Reduce Stationarity**: If the data is non-stationary, transformation techniques like differencing can be applied to make the data stationary, thus facilitating modeling.
